@@ -2,6 +2,4 @@ This repository contains our work for the project “Cross-Meme Transfer for Mem
 
 Our experiments involved data collection from meme subreddits and WSB, feature engineering for meme virality, temporal alignment across multiple horizons, and predictive modeling for 1-day, 3-day, and 5-day forecasts. We used proper statistical validation, including hypothesis testing, confidence intervals, and full backtesting, to ensure every claim was scientifically defensible.
 
-A key outcome is that negative results are still meaningful. Our models showed that WSB sentiment alone provides almost no predictive power, often performing no better than random guessing. Even after pipeline fixes in Phase 5, improvements remained statistically unreliable due to small sample sizes.
-
-Overall, this repository documents our findings, clarifies which signals matter, and sets the foundation for Phase 2, where we will implement the full temporal-causal pipeline and draft the research paper.
+A key outcome is that negative results are still meaningful. Our models showed that WSB sentiment alone provides almost no predictive power, often performing no better than random guessing.
